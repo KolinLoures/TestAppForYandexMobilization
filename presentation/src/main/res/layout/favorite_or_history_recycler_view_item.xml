@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/favorite_or_history_recycler_view_item_padding_bottom"
+    android:paddingLeft="@dimen/favorite_or_history_recycler_view_item_padding_left"
+    android:paddingRight="@dimen/favorite_or_history_recycler_view_item_padding_right"
+    android:paddingTop="@dimen/favorite_or_history_recycler_view_item_padding_top">
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/favorite_or_history_recycler_view_item_add_to_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/favorite_or_history_recycler_view_item_image_margin_right"
+        android:background="?android:attr/selectableItemBackground"
+        android:src="@drawable/ic_bookmark_gray_24dp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/favorite_or_history_recycler_view_item_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/favorite_or_history_recycler_view_item_padding_bottom_text_from_margin_bottom"
+        android:layout_toLeftOf="@+id/favorite_or_history_recycler_view_item_lang_abbreviation"
+        android:layout_toRightOf="@+id/favorite_or_history_recycler_view_item_add_to_favorite"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorBlack" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/favorite_or_history_recycler_view_item_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/favorite_or_history_recycler_view_item_from"
+        android:layout_toLeftOf="@+id/favorite_or_history_recycler_view_item_lang_abbreviation"
+        android:layout_toRightOf="@+id/favorite_or_history_recycler_view_item_add_to_favorite"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorGray" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/favorite_or_history_recycler_view_item_lang_abbreviation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/favorite_or_history_recycler_view_item_language_abbreviation_margin_left"
+        android:textColor="@color/colorGray"
+        android:textSize="10sp" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingBottom="@dimen/about_and_settings_recycler_view_item_recycler_view_item_padding_bottom"
+    android:paddingLeft="@dimen/about_and_settings_recycler_view_item_recycler_view_item_padding_left"
+    android:paddingRight="@dimen/about_and_settings_recycler_view_item_recycler_view_item_padding_right"
+    android:paddingTop="@dimen/about_and_settings_recycler_view_item_recycler_view_item_padding_top">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/about_and_settings_recycler_view_item_recycler_view_item_settings_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/about_and_settings_recycler_view_item_recycler_view_item_switch"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/about_and_settings_recycler_view_item_recycler_view_item_settings_name_text_size"
+        tools:text="Настройка" />
+
+    <android.support.v7.widget.SwitchCompat
+
+        android:id="@+id/about_and_settings_recycler_view_item_recycler_view_item_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

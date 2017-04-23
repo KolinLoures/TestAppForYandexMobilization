@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/about_author_dialog_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/about_author_dialog_completed_by_margin_left"
+        android:layout_marginRight="@dimen/about_author_dialog_completed_by_margin_right"
+        android:layout_marginTop="@dimen/about_author_dialog_completed_by_margin_top"
+        android:text="@string/about_author_dialog_author"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/about_and_settings_recycler_view_item_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/about_author_dialog_link_author_category_title_padding_bottom"
+        android:paddingLeft="@dimen/about_author_dialog_link_author_category_title_padding_left"
+        android:paddingRight="@dimen/about_author_dialog_link_author_category_title_padding_right"
+        android:paddingTop="@dimen/about_author_dialog_link_author_category_title_padding_top"
+        android:text="@string/links_of_author"
+        android:textColor="@color/colorGray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_author_dialog_category_divider_height"
+        android:background="@color/colorGray" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/about_author_dialog_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

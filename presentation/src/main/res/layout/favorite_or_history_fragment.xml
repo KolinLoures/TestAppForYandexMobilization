@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.sbilsky.customviewslibrary.views.CustomSearchView
+            android:id="@+id/favorite_or_history_custom_search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            custom:clear_drawable="@drawable/ic_clear_black_24dp"
+            custom:drawable_padding_left="@dimen/favorite_or_history_fragment_search_view_drawable_padding_left"
+            custom:drawable_padding_right="@dimen/favorite_or_history_fragment_search_view_drawable_padding_right"
+            custom:hint="@string/favorite_or_history_fragment_search_view_hint"
+            custom:line_color_active="@color/colorPrimary"
+            custom:line_color_inactive="@color/colorGray"
+            custom:search_drawable="@drawable/ic_search_black_24dp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/favorite_or_history_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+        <include
+            android:id="@+id/no_result_found_in_category"
+            layout="@layout/no_result_found_in_category_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/favorite_or_history_no_result_in_category"
+        layout="@layout/no_result_in_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+</FrameLayout>

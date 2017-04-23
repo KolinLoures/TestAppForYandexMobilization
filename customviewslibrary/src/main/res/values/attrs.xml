@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="CustomSearchView">
+        <attr name="hint" format="string" />
+        <attr name="search_drawable" format="reference"/>
+        <attr name="clear_drawable" format="reference"/>
+        <attr name="drawable_padding_left" format="dimension"/>
+        <attr name="drawable_padding_right" format="dimension"/>
+        <attr name="line_color_inactive" format="color"/>
+        <attr name="line_color_active" format="color"/>
+    </declare-styleable>
+</resources>

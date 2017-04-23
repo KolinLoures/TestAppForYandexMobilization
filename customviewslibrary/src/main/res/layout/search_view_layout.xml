@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/image_view_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical" />
+
+    <com.sbilsky.customviewslibrary.views.CustomEditText
+        android:id="@+id/custom_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@+id/image_view_clear"
+        android:layout_toRightOf="@+id/image_view_search"
+        android:background="@null"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="Поиск по разделу"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLines="1"
+        android:padding="8dp" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/image_view_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/custom_edit_text" />
+</RelativeLayout>

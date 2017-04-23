@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/translate_recycler_view_item_to"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/translator_fragment_recycler_view_item_variant_of_translate_item_to_margin_bottom"
+        android:textColor="@color/colorBlue" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/translate_recycler_view_item_from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/translator_fragment_recycler_view_item_variant_of_translate_item_from_margin_bottom"
+        android:textColor="@color/colorRed" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/translate_recycler_view_item_variants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/translator_fragment_recycler_view_item_variant_of_translate_item_variants_margin_bottom"
+        android:layout_marginLeft="@dimen/translator_fragment_recycler_view_item_variant_of_translate_item_variants_margin_left"
+        android:textColor="@color/colorDarkBlue" />
+</LinearLayout>

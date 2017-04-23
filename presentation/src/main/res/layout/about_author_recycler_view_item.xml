@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/about_author_recycler_view_item_padding_bottom"
+    android:paddingLeft="@dimen/about_author_recycler_view_item_padding_left"
+    android:paddingRight="@dimen/about_author_recycler_view_item_padding_right"
+    android:paddingTop="@dimen/about_author_recycler_view_item_padding_top">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/about_author_recycler_view_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/about_author_recycler_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/about_author_recycler_view_item_text_margin_left"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp" />
+</LinearLayout>

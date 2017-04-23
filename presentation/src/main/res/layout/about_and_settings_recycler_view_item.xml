@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/about_and_settings_recycler_view_item_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/about_and_settings_recycler_view_item_settings_title_padding_bottom"
+        android:paddingLeft="@dimen/about_and_settings_recycler_view_item_settings_title_padding_left"
+        android:paddingRight="@dimen/about_and_settings_recycler_view_item_settings_title_padding_right"
+        android:paddingTop="@dimen/about_and_settings_recycler_view_item_settings_title_padding_top"
+        android:textColor="@color/colorGray" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/about_and_settings_recycler_view_item_settings_divider_height"
+        android:background="@color/colorGray" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/about_and_settings_recycler_view_item_settings_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

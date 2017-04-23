@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/from_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/translator_fragment_recycler_view_item_translate_from_text_margin_top"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/translator_fragment_recycler_view_item_translate_from_text_text_size" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/part_of_speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/translator_fragment_recycler_view_item_translate_part_of_speech_margin_top"
+        android:textColor="@color/colorRed1"
+        android:textSize="@dimen/translator_fragment_recycler_view_item_translate_part_of_speech_text_size" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/translate_variants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/translator_fragment_recycler_view_item_translate_recycler_view_translate_variants_margin_top" />
+</LinearLayout>

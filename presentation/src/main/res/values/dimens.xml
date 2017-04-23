@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="about_and_settings_recycler_view_item_settings_title_padding_top">8dp</dimen>
+    <dimen name="about_and_settings_recycler_view_item_settings_title_padding_left">16dp</dimen>
+    <dimen name="about_and_settings_recycler_view_item_settings_title_padding_bottom">4dp</dimen>
+    <dimen name="about_and_settings_recycler_view_item_settings_title_padding_right">16dp</dimen>
+    <dimen name="about_and_settings_recycler_view_item_settings_divider_height">1dp</dimen>
+    <dimen name="about_and_settings_recycler_view_item_recycler_view_item_padding_bottom">8dp
+    </dimen>
+    <dimen name="about_and_settings_recycler_view_item_recycler_view_item_padding_left">16dp</dimen>
+    <dimen name="about_and_settings_recycler_view_item_recycler_view_item_padding_right">16dp
+    </dimen>
+    <dimen name="about_and_settings_recycler_view_item_recycler_view_item_padding_top">8dp</dimen>
+    <dimen name="about_and_settings_recycler_view_item_recycler_view_item_settings_name_text_size">
+        16sp
+    </dimen>
+    <dimen name="about_author_dialog_completed_by_margin_left">16dp</dimen>
+    <dimen name="about_author_dialog_completed_by_margin_right">16dp</dimen>
+    <dimen name="about_author_dialog_completed_by_margin_top">8dp</dimen>
+    <dimen name="about_author_dialog_link_author_category_title_padding_bottom">4dp</dimen>
+    <dimen name="about_author_dialog_link_author_category_title_padding_left">16dp</dimen>
+    <dimen name="about_author_dialog_link_author_category_title_padding_right">16dp</dimen>
+    <dimen name="about_author_dialog_link_author_category_title_padding_top">8dp</dimen>
+    <dimen name="about_author_dialog_category_divider_height">1dp</dimen>
+    <dimen name="about_author_recycler_view_item_padding_bottom">8dp</dimen>
+    <dimen name="about_author_recycler_view_item_padding_left">16dp</dimen>
+    <dimen name="about_author_recycler_view_item_padding_right">16dp</dimen>
+    <dimen name="about_author_recycler_view_item_padding_top">8dp</dimen>
+    <dimen name="about_author_recycler_view_item_text_margin_left">8dp</dimen>
+    <dimen name="about_program_dialog_text_title_margin_bottom">8dp</dimen>
+    <dimen name="about_program_dialog_text_title_margin_left">16dp</dimen>
+    <dimen name="about_program_dialog_text_title_margin_right">16dp</dimen>
+    <dimen name="about_program_dialog_text_title_margin_top">8dp</dimen>
+    <dimen name="about_program_dialog_text_title_text_size">25sp</dimen>
+    <dimen name="change_language_dialog_recycler_view_item_padding_bottom">8dp</dimen>
+    <dimen name="change_language_dialog_recycler_view_item_padding_left">16dp</dimen>
+    <dimen name="change_language_dialog_recycler_view_item_padding_right">16dp</dimen>
+    <dimen name="change_language_dialog_recycler_view_item_padding_top">8dp</dimen>
+    <dimen name="change_language_dialog_recycler_view_item_text_size">18sp</dimen>
+    <dimen name="delete_all_favorite_or_history_dialog_message_margin">16dp</dimen>
+    <dimen name="delete_all_favorite_or_history_dialog_message_text_size">16sp</dimen>
+    <dimen name="delete_item_dialog_padding">16dp</dimen>
+    <dimen name="delete_item_dialog_text_size">20sp</dimen>
+    <dimen name="favorite_or_history_recycler_view_item_padding_bottom">8dp</dimen>
+    <dimen name="favorite_or_history_recycler_view_item_padding_left">16dp</dimen>
+    <dimen name="favorite_or_history_recycler_view_item_padding_right">16dp</dimen>
+    <dimen name="favorite_or_history_recycler_view_item_padding_top">8dp</dimen>
+    <dimen name="favorite_or_history_recycler_view_item_image_margin_right">16dp</dimen>
+    <dimen name="favorite_or_history_recycler_view_item_padding_bottom_text_from_margin_bottom">4dp
+    </dimen>
+    <dimen name="favorite_or_history_recycler_view_item_language_abbreviation_margin_left">8dp
+    </dimen>
+    <dimen name="navigation_activity_divider_above_tab_layout_height">1dp</dimen>
+    <dimen name="no_internet_connection_layout_title_margin_bottom">8dp</dimen>
+    <dimen name="no_internet_connection_layout_title_text_size">20sp</dimen>
+    <dimen name="no_internet_connection_layout_message_margin_bottom">8dp</dimen>
+    <dimen name="no_internet_connection_layout_message_text_size">14sp</dimen>
+    <dimen name="no_result_in_category_layout_image_width">50dp</dimen>
+    <dimen name="no_result_in_category_layout_image_height">50dp</dimen>
+    <dimen name="no_result_in_category_layout_margin_bottom">16dp</dimen>
+    <dimen name="no_result_in_category_layout_margin_top">32dp</dimen>
+    <dimen name="no_result_in_category_layout_message_text_size">14sp</dimen>
+    <dimen name="translator_fragment_language_from_text_size">16sp</dimen>
+    <dimen name="translator_fragment_image_button_replace_margin_left">8dp</dimen>
+    <dimen name="translator_fragment_image_button_replace_margin_right">8dp</dimen>
+    <dimen name="translator_fragment_language_to_margin_right">8dp</dimen>
+    <dimen name="translator_fragment_language_to_text_size">16sp</dimen>
+    <dimen name="translator_fragment_text_margin_bottom">8dp</dimen>
+    <dimen name="translator_fragment_text_margin_left">16dp</dimen>
+    <dimen name="translator_fragment_text_margin_top">16dp</dimen>
+    <dimen name="translator_fragment_text_margin_right">8dp</dimen>
+    <dimen name="translator_fragment_text_text_size">16sp</dimen>
+    <dimen name="translator_fragment_image_button_favorite_margin_right">8dp</dimen>
+    <dimen name="translator_fragment_image_button_favorite_margin_top">16dp</dimen>
+    <dimen name="translator_fragment_recycler_view_text_with_translate_margin_left">16dp</dimen>
+    <dimen name="translator_fragment_recycler_view_text_with_translate_margin_right">8dp</dimen>
+    <dimen name="translator_fragment_translator_panel_recycler_view_margin">8dp</dimen>
+    <dimen name="translator_fragment_recycler_view_translator_panet_item_edit_text_margin">8dp
+    </dimen>
+    <dimen name="translator_fragment_recycler_view_item_translate_from_text_margin_top">8dp</dimen>
+    <dimen name="translator_fragment_recycler_view_item_translate_from_text_text_size">16sp</dimen>
+    <dimen name="translator_fragment_recycler_view_item_translate_part_of_speech_margin_top">8dp
+    </dimen>
+    <dimen name="translator_fragment_recycler_view_item_translate_part_of_speech_text_size">10sp
+    </dimen>
+    <dimen name="translator_fragment_recycler_view_item_translate_recycler_view_translate_variants_margin_top">
+        8dp
+    </dimen>
+    <dimen name="translator_fragment_recycler_view_item_variant_of_translate_item_to_margin_bottom">
+        4dp
+    </dimen>
+    <dimen name="translator_fragment_recycler_view_item_variant_of_translate_item_from_margin_bottom">
+        4dp
+    </dimen>
+    <dimen name="translator_fragment_recycler_view_item_variant_of_translate_item_variants_margin_bottom">
+        4dp
+    </dimen>
+    <dimen name="translator_fragment_recycler_view_item_variant_of_translate_item_variants_margin_left">
+        8dp
+    </dimen>
+    <dimen name="favorite_or_history_fragment_search_view_drawable_padding_left">16dp</dimen>
+    <dimen name="favorite_or_history_fragment_search_view_drawable_padding_right">8dp</dimen>
+</resources>

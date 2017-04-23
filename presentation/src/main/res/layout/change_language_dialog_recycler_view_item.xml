@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/change_language_dialog_recycler_view_item_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingBottom="@dimen/change_language_dialog_recycler_view_item_padding_bottom"
+    android:paddingLeft="@dimen/change_language_dialog_recycler_view_item_padding_left"
+    android:paddingRight="@dimen/change_language_dialog_recycler_view_item_padding_right"
+    android:paddingTop="@dimen/change_language_dialog_recycler_view_item_padding_top"
+    android:textColor="@color/colorBlack"
+    android:textSize="@dimen/change_language_dialog_recycler_view_item_text_size" />

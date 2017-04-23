@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.sbilsky.customviewslibrary.views.NoScrollableViewPager
+        android:id="@+id/main_activity_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_activity_tab_layout" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_activity_divider_above_tab_layout_height"
+        android:layout_above="@+id/main_activity_tab_layout"
+        android:background="@color/colorGray" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/main_activity_tab_layout"
+        style="@style/MineCustomTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
