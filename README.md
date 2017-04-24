@@ -20,4 +20,4 @@
 ### Избранное, История и поиск по ним
 <img src="http://mastermetala.ru/git/Favorite.png" width="180" height="360"> <img src="http://mastermetala.ru/git/History.png" width="180" height="360"> <img src="http://mastermetala.ru/git/Search.png" width="180" height="360">
 ### Настройки, О программе, Об Авторе
-<img src="http://mastermetala.ru/git/Settings.png" width="180" height="360"> <img src="http://mastermetala.ru/git/Author.png" width="180" height="360"> <img src="http://mastermetala.ru/git/About.png" width="180" height="360">
+<img src="http://mastermetala.ru/git/Settings.png" width="180" height="360"> <img src="http://mastermetala.ru/git/About.png" width="180" height="360"> <img src="http://mastermetala.ru/git/Author.png" width="180" height="360">
